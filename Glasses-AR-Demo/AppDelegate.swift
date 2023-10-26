@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Glasses-AR-Demo
 //
-//  Created by Pete Murray on 12/10/2022.
+//  Created by Ivan Abramov on 23/10/2023
 //
 
 import UIKit
@@ -16,8 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
+//        @State var selectedMask: /*Object*/ = Object.loadObjects().first!
+        
 		// Create the SwiftUI view that provides the window contents.
-		let contentView = ContentView()
+        let contentView = ContentView()
 
 		// Use a UIHostingController as window root view controller.
 		let window = UIWindow(frame: UIScreen.main.bounds)

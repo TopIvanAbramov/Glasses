@@ -1,0 +1,202 @@
+{
+  "__content" : [
+    {
+      "scenes" : [
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "name" : "face"
+              },
+              "behaviors" : [
+
+              ],
+              "gravity" : [
+                0,
+                0,
+                9.8000001907348633
+              ],
+              "identifier" : "096CEA4C-B436-40CF-B638-3AA4C15CBE02",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "8C870DCE-83A1-46C3-B803-3508962DCC89" : null,
+                  "32AAE885-9A6E-4E66-B709-295470F9A41E" : null,
+                  "22879D04-F50A-4101-A402-E69FDB12E9C1" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:ee2f310efce2819c1a7a5b66952c2d5a\/Jujutsu%20Kaisen%20Glasses.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "07420F97-8B00-4065-A8E7-AFABAE046203"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "046B9F93-6939-4543-A14D-AB2DB92756B9"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.017838867381215096,
+                        3.1898279573283617e-09,
+                        -3.1897087193755169e-09,
+                        0,
+                        -3.1897442465123049e-09,
+                        6.8367012318049092e-07,
+                        -0.017838383093476295,
+                        0,
+                        -3.189619679488942e-09,
+                        0.017838383093476295,
+                        6.8367012318049092e-07,
+                        0,
+                        -2.008593753544119e-07,
+                        0.054325193166732788,
+                        -0.014738725498318672,
+                        1
+                      ]
+                    }
+                  },
+                  "E6682DDF-BE82-433F-9F8F-48F6E03504C5" : null
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "Face",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.99911075830459595,
+                  -1.2004425009592978e-08,
+                  0.042162638157606125,
+                  0,
+                  -0.00099584029521793127,
+                  0.99972105026245117,
+                  0.023598505184054375,
+                  0,
+                  -0.04215085506439209,
+                  -0.023619458079338074,
+                  0.998832106590271,
+                  0,
+                  0.06572432816028595,
+                  0.043167080730199814,
+                  0.78042811155319214,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  -1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        }
+      ],
+      "tags" : {
+        "__content" : [
+          {
+            "tagsStore" : {
+
+            }
+          }
+        ],
+        "__version" : 1
+      }
+    }
+  ],
+  "__version" : 1
+}

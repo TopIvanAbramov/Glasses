@@ -9,63 +9,41 @@
 /* Begin PBXBuildFile section */
 		E6952A7428F6C4380094B78A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6952A7328F6C4380094B78A /* AppDelegate.swift */; };
 		E6952A7628F6C4380094B78A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6952A7528F6C4380094B78A /* ContentView.swift */; };
-		E6952A7828F6C4380094B78A /* Glasses.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = E6952A7728F6C4380094B78A /* Glasses.rcproject */; };
 		E6952A7A28F6C43B0094B78A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6952A7928F6C43B0094B78A /* Assets.xcassets */; };
 		E6952A7D28F6C43B0094B78A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6952A7C28F6C43B0094B78A /* Preview Assets.xcassets */; };
-		E6952A8728F6C43B0094B78A /* Glasses_AR_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6952A8628F6C43B0094B78A /* Glasses_AR_DemoTests.swift */; };
-		E6952A9128F6C43B0094B78A /* Glasses_AR_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6952A9028F6C43B0094B78A /* Glasses_AR_DemoUITests.swift */; };
-		E6952A9328F6C43B0094B78A /* Glasses_AR_DemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6952A9228F6C43B0094B78A /* Glasses_AR_DemoUITestsLaunchTests.swift */; };
-		E6952AA028F6CA3A0094B78A /* PartyGlasses.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = E6952A9F28F6CA3A0094B78A /* PartyGlasses.rcproject */; };
+		F332ED2E2AE841D7003EF724 /* SelectMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F332ED2D2AE841D7003EF724 /* SelectMaskView.swift */; };
+		F332ED4A2AE868ED003EF724 /* PartyGlasses.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F332ED492AE868ED003EF724 /* PartyGlasses.rcproject */; };
+		F332ED4D2AE86AA8003EF724 /* Glasses.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F332ED4C2AE86AA8003EF724 /* Glasses.rcproject */; };
+		F332ED4F2AE86EC4003EF724 /* MaskLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F332ED4E2AE86EC4003EF724 /* MaskLoader.swift */; };
+		F332ED512AE90088003EF724 /* Green.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F332ED502AE90088003EF724 /* Green.rcproject */; };
+		F332ED532AE90093003EF724 /* Cyborg.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F332ED522AE90093003EF724 /* Cyborg.rcproject */; };
+		F332ED572AE90243003EF724 /* MaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F332ED562AE90243003EF724 /* MaskModel.swift */; };
+		F3B7AC122AEA57F90025A1A3 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B7AC112AEA57F90025A1A3 /* ARViewContainer.swift */; };
+		F3B7AC142AEA5EF60025A1A3 /* SmileDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B7AC132AEA5EF60025A1A3 /* SmileDetector.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E6952A8328F6C43B0094B78A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E6952A6828F6C4380094B78A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E6952A6F28F6C4380094B78A;
-			remoteInfo = "Glasses-AR-Demo";
-		};
-		E6952A8D28F6C43B0094B78A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E6952A6828F6C4380094B78A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E6952A6F28F6C4380094B78A;
-			remoteInfo = "Glasses-AR-Demo";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E6952A7028F6C4380094B78A /* Glasses-AR-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Glasses-AR-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6952A7328F6C4380094B78A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6952A7528F6C4380094B78A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E6952A7728F6C4380094B78A /* Glasses.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Glasses.rcproject; sourceTree = "<group>"; };
 		E6952A7928F6C43B0094B78A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6952A7C28F6C43B0094B78A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E6952A8228F6C43B0094B78A /* Glasses-AR-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glasses-AR-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6952A8628F6C43B0094B78A /* Glasses_AR_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glasses_AR_DemoTests.swift; sourceTree = "<group>"; };
-		E6952A8C28F6C43B0094B78A /* Glasses-AR-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glasses-AR-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6952A9028F6C43B0094B78A /* Glasses_AR_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glasses_AR_DemoUITests.swift; sourceTree = "<group>"; };
 		E6952A9228F6C43B0094B78A /* Glasses_AR_DemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glasses_AR_DemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		E6952A9F28F6CA3A0094B78A /* PartyGlasses.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = PartyGlasses.rcproject; sourceTree = "<group>"; };
+		F332ED2D2AE841D7003EF724 /* SelectMaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMaskView.swift; sourceTree = "<group>"; };
+		F332ED492AE868ED003EF724 /* PartyGlasses.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = PartyGlasses.rcproject; sourceTree = "<group>"; };
+		F332ED4C2AE86AA8003EF724 /* Glasses.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Glasses.rcproject; sourceTree = "<group>"; };
+		F332ED4E2AE86EC4003EF724 /* MaskLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskLoader.swift; sourceTree = "<group>"; };
+		F332ED502AE90088003EF724 /* Green.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Green.rcproject; sourceTree = "<group>"; };
+		F332ED522AE90093003EF724 /* Cyborg.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Cyborg.rcproject; sourceTree = "<group>"; };
+		F332ED562AE90243003EF724 /* MaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskModel.swift; sourceTree = "<group>"; };
+		F3B7AC112AEA57F90025A1A3 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		F3B7AC132AEA5EF60025A1A3 /* SmileDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileDetector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E6952A6D28F6C4380094B78A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E6952A7F28F6C43B0094B78A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E6952A8928F6C43B0094B78A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -89,8 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				E6952A7028F6C4380094B78A /* Glasses-AR-Demo.app */,
-				E6952A8228F6C43B0094B78A /* Glasses-AR-DemoTests.xctest */,
-				E6952A8C28F6C43B0094B78A /* Glasses-AR-DemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,8 +76,9 @@
 			children = (
 				E6952A7328F6C4380094B78A /* AppDelegate.swift */,
 				E6952A7528F6C4380094B78A /* ContentView.swift */,
-				E6952A7728F6C4380094B78A /* Glasses.rcproject */,
-				E6952A9F28F6CA3A0094B78A /* PartyGlasses.rcproject */,
+				F3B7AC102AEA57DB0025A1A3 /* Service */,
+				F332ED582AE90257003EF724 /* Masks */,
+				F332ED4B2AE86A7F003EF724 /* Glasses */,
 				E6952A7928F6C43B0094B78A /* Assets.xcassets */,
 				E6952A7B28F6C43B0094B78A /* Preview Content */,
 			);
@@ -133,6 +110,36 @@
 			path = "Glasses-AR-DemoUITests";
 			sourceTree = "<group>";
 		};
+		F332ED4B2AE86A7F003EF724 /* Glasses */ = {
+			isa = PBXGroup;
+			children = (
+				F332ED522AE90093003EF724 /* Cyborg.rcproject */,
+				F332ED502AE90088003EF724 /* Green.rcproject */,
+				F332ED4C2AE86AA8003EF724 /* Glasses.rcproject */,
+				F332ED492AE868ED003EF724 /* PartyGlasses.rcproject */,
+			);
+			path = Glasses;
+			sourceTree = "<group>";
+		};
+		F332ED582AE90257003EF724 /* Masks */ = {
+			isa = PBXGroup;
+			children = (
+				F332ED2D2AE841D7003EF724 /* SelectMaskView.swift */,
+				F332ED562AE90243003EF724 /* MaskModel.swift */,
+				F3B7AC112AEA57F90025A1A3 /* ARViewContainer.swift */,
+			);
+			path = Masks;
+			sourceTree = "<group>";
+		};
+		F3B7AC102AEA57DB0025A1A3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F332ED4E2AE86EC4003EF724 /* MaskLoader.swift */,
+				F3B7AC132AEA5EF60025A1A3 /* SmileDetector.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,42 +160,6 @@
 			productReference = E6952A7028F6C4380094B78A /* Glasses-AR-Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E6952A8128F6C43B0094B78A /* Glasses-AR-DemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E6952A9928F6C43B0094B78A /* Build configuration list for PBXNativeTarget "Glasses-AR-DemoTests" */;
-			buildPhases = (
-				E6952A7E28F6C43B0094B78A /* Sources */,
-				E6952A7F28F6C43B0094B78A /* Frameworks */,
-				E6952A8028F6C43B0094B78A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E6952A8428F6C43B0094B78A /* PBXTargetDependency */,
-			);
-			name = "Glasses-AR-DemoTests";
-			productName = "Glasses-AR-DemoTests";
-			productReference = E6952A8228F6C43B0094B78A /* Glasses-AR-DemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E6952A8B28F6C43B0094B78A /* Glasses-AR-DemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E6952A9C28F6C43B0094B78A /* Build configuration list for PBXNativeTarget "Glasses-AR-DemoUITests" */;
-			buildPhases = (
-				E6952A8828F6C43B0094B78A /* Sources */,
-				E6952A8928F6C43B0094B78A /* Frameworks */,
-				E6952A8A28F6C43B0094B78A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E6952A8E28F6C43B0094B78A /* PBXTargetDependency */,
-			);
-			name = "Glasses-AR-DemoUITests";
-			productName = "Glasses-AR-DemoUITests";
-			productReference = E6952A8C28F6C43B0094B78A /* Glasses-AR-DemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -201,14 +172,6 @@
 				TargetAttributes = {
 					E6952A6F28F6C4380094B78A = {
 						CreatedOnToolsVersion = 14.0.1;
-					};
-					E6952A8128F6C43B0094B78A = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = E6952A6F28F6C4380094B78A;
-					};
-					E6952A8B28F6C43B0094B78A = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = E6952A6F28F6C4380094B78A;
 					};
 				};
 			};
@@ -226,8 +189,6 @@
 			projectRoot = "";
 			targets = (
 				E6952A6F28F6C4380094B78A /* Glasses-AR-Demo */,
-				E6952A8128F6C43B0094B78A /* Glasses-AR-DemoTests */,
-				E6952A8B28F6C43B0094B78A /* Glasses-AR-DemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,20 +203,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6952A8028F6C43B0094B78A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E6952A8A28F6C43B0094B78A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -263,44 +210,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F332ED532AE90093003EF724 /* Cyborg.rcproject in Sources */,
+				F332ED4F2AE86EC4003EF724 /* MaskLoader.swift in Sources */,
 				E6952A7628F6C4380094B78A /* ContentView.swift in Sources */,
+				F3B7AC142AEA5EF60025A1A3 /* SmileDetector.swift in Sources */,
+				F332ED4D2AE86AA8003EF724 /* Glasses.rcproject in Sources */,
+				F332ED2E2AE841D7003EF724 /* SelectMaskView.swift in Sources */,
+				F332ED572AE90243003EF724 /* MaskModel.swift in Sources */,
 				E6952A7428F6C4380094B78A /* AppDelegate.swift in Sources */,
-				E6952AA028F6CA3A0094B78A /* PartyGlasses.rcproject in Sources */,
-				E6952A7828F6C4380094B78A /* Glasses.rcproject in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E6952A7E28F6C43B0094B78A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E6952A8728F6C43B0094B78A /* Glasses_AR_DemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E6952A8828F6C43B0094B78A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E6952A9128F6C43B0094B78A /* Glasses_AR_DemoUITests.swift in Sources */,
-				E6952A9328F6C43B0094B78A /* Glasses_AR_DemoUITestsLaunchTests.swift in Sources */,
+				F332ED4A2AE868ED003EF724 /* PartyGlasses.rcproject in Sources */,
+				F332ED512AE90088003EF724 /* Green.rcproject in Sources */,
+				F3B7AC122AEA57F90025A1A3 /* ARViewContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E6952A8428F6C43B0094B78A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E6952A6F28F6C4380094B78A /* Glasses-AR-Demo */;
-			targetProxy = E6952A8328F6C43B0094B78A /* PBXContainerItemProxy */;
-		};
-		E6952A8E28F6C43B0094B78A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E6952A6F28F6C4380094B78A /* Glasses-AR-Demo */;
-			targetProxy = E6952A8D28F6C43B0094B78A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E6952A9428F6C43B0094B78A /* Debug */ = {
@@ -426,7 +350,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Glasses-AR-Demo/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8BBYKKS8QL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -445,9 +369,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "kinandcarta.Glasses-AR-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -460,7 +388,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Glasses-AR-Demo/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8BBYKKS8QL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -479,81 +407,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "kinandcarta.Glasses-AR-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		E6952A9A28F6C43B0094B78A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "kinandcarta.Glasses-AR-DemoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glasses-AR-Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Glasses-AR-Demo";
-			};
-			name = Debug;
-		};
-		E6952A9B28F6C43B0094B78A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "kinandcarta.Glasses-AR-DemoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glasses-AR-Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Glasses-AR-Demo";
-			};
-			name = Release;
-		};
-		E6952A9D28F6C43B0094B78A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "kinandcarta.Glasses-AR-DemoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Glasses-AR-Demo";
-			};
-			name = Debug;
-		};
-		E6952A9E28F6C43B0094B78A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "kinandcarta.Glasses-AR-DemoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Glasses-AR-Demo";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -574,24 +434,6 @@
 			buildConfigurations = (
 				E6952A9728F6C43B0094B78A /* Debug */,
 				E6952A9828F6C43B0094B78A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E6952A9928F6C43B0094B78A /* Build configuration list for PBXNativeTarget "Glasses-AR-DemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E6952A9A28F6C43B0094B78A /* Debug */,
-				E6952A9B28F6C43B0094B78A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E6952A9C28F6C43B0094B78A /* Build configuration list for PBXNativeTarget "Glasses-AR-DemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E6952A9D28F6C43B0094B78A /* Debug */,
-				E6952A9E28F6C43B0094B78A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
